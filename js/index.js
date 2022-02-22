@@ -57,8 +57,8 @@ try {
   function switchPage(to) {
     var toFriendly = " - " + to
     if (to == "index") {toFriendly = ""}
-    document.title = "theLMGN v17.2" + toFriendly
-    history.pushState({}, "theLMGN v17.2" + toFriendly, to + ".html");
+    document.title = "henry v17.2" + toFriendly
+    history.pushState({}, "henry v17.2" + toFriendly, to + ".html");
     switchPageActual(to)
   }
 
@@ -67,7 +67,7 @@ try {
     e.preventDefault()
     document.body.style.opacity = "0"
     setTimeout(function() {
-      location.replace("http://words.thelmgn.com")
+      location.replace("http://words.henry.is-a.dev")
     },250)
     return false;
   }

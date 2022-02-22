@@ -76,7 +76,7 @@ COMMENT with these you can disable some features of the template. Please note th
 	{.$box login.}
 
 	<a class="mdl-navigation__link">{.!HFS uptime.}: %uptime%</a>
-	<a class="mdl-navigation__link" href="https://thelmgn.com/MaterialHFS.tpl">Uses the MaterialHFS 0.1 theme by theLMGN.</a>
+	<a class="mdl-navigation__link" href="https://henry.is-a.dev/MaterialHFS.tpl">Uses the MaterialHFS 0.1 theme by henry.</a>
     </nav>
   </div>
   <main class="mdl-layout__content">
